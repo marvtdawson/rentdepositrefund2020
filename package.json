@@ -29,6 +29,7 @@
     "@ionic-native/status-bar": "4.20.0",
     "@ionic/pro": "2.0.4",
     "@ionic/storage": "2.2.0",
+    "angularfire2": "^5.4.2",
     "firebase": "^7.14.5",
     "firebaseui": "^4.5.0",
     "ionic-angular": "3.9.9",
