@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-// import * as firebase from 'firebase';
-// import * as firebaseui from 'firebaseui';
+import * as firebase from 'firebase/app';
+import * as firebaseui from 'firebaseui';
 // import { AngularFirestore } from '@angular/fire/firestore';
 
 /**
@@ -41,7 +41,7 @@ export class LoginPage implements OnInit {
       }
     };*/
 
-    // const ui = new firebaseui.auth.AuthUI(firebase.auth());
+    const ui = new firebaseui.auth.AuthUI(firebase.auth());
     // ui.start('#firebaseui-auth-container', uiConfig);
   }
 
