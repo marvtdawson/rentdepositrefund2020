@@ -1,0 +1,8 @@
+{
+  "name": "rentdepositrefund2020",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "66f1fbf1"
+}
