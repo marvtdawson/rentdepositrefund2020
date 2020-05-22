@@ -45,7 +45,7 @@ export class LoginPage implements OnInit {
     // ui.start('#firebaseui-auth-container', uiConfig);
   }
 
-  onLoginSuccessful() {
+  /*onLoginSuccessful() {
     // get current user
     // const user = firebase.auth().currentUser;
 
@@ -60,6 +60,6 @@ export class LoginPage implements OnInit {
     //   emailVerified: user.emailVerified,
     //   isAnonymous: user.isAnonymous
     // });
-  }
+  }*/
 
 }
